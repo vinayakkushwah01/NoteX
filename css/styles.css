@@ -422,13 +422,13 @@ html{
   }
   
  #card1_front{
-  background-image: url('icon/qpaper.jpg')
+  background-image: url('../icon/qpaper.jpg')
  }
  #card2_front{
-  background-image: url('https://github.com/vinayakkushwah01/NoteX/blob/main/icon/notes.jpg')
+  background-image: url('../icon/notes.jpg')
  }
  #card3_front{
-  background-image: url('icon/upload.jpg')
+  background-image: url('../icon/upload.jpg')
  }
 
  ///
