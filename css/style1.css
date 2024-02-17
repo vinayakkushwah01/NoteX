@@ -1,0 +1,80 @@
+body{
+    background-color:	#111518;
+}
+
+.top img{
+    width: 30%;
+    height: 5%;
+  
+}
+
+#main_right{
+    
+    display:flexbox;
+    align-items: end;
+   
+}
+
+
+#sub_main {
+  
+    position: relative;
+    right: 0%;
+    width: 80%;
+    height: 50px;
+    background-color:transparent;
+   display: flex;
+
+   align-items: center;
+   justify-content:space-around;
+}
+#manu_bar{
+    position: absolute;
+   
+    right: 1%;
+    width: 50%;
+    height: 50px;
+    background-color:111518;
+   display: flex;
+
+   align-items: center;
+   justify-content:space-around;
+}
+#manu_bar button ,#sub_main button{
+max-width: 10%px;
+cursor: pointer;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 2px;
+border: solid;
+border-radius: 6px;
+
+background-color: transparent;
+text-decoration-color: aliceblue;
+color: aliceblue;
+}
+#manu_bar input{
+    border: solid;
+    border-radius: 6px;
+    max-width: 40%;
+    min-width: 10%;
+    background-color: transparent;
+    border: 1;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+#upload{
+    background-color: blue;
+}
+
+#manu_bar button:hover{
+    color: black;
+    background-color: rgb(204, 203, 212); 
+   
+}
+#manu_bar input:hover{
+    color:#111518;
+    background-color: rgb(204, 203, 212); 
+}
+
